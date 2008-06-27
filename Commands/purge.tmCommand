@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>${TM_RUBY:-ruby} &lt;&lt;"RUBY"
+$:.unshift "#{ENV['TM_SUPPORT_PATH']}/lib"
+require 'scriptmate'
+
+@file=File.basename(ENV['TM_FILEPATH'])
+$cmd="texmfstart texutil --purge #{@file}"
+
+
+
+class CommandMate
+  def emit_header
+    puts html_head(:window_title=&gt;"purge", :page_title=&gt;"purge aux files" , :sub_title=&gt;"#{$cmd}")
+   puts "&lt;pre&gt;"
+  end
+end
+
+cmd_mate($cmd)
+RUBY
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^~</string>
+	<key>name</key>
+	<string>Purge</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>text.tex.context</string>
+	<key>uuid</key>
+	<string>BA08F7FB-610C-4028-98FD-B099164D89F7</string>
+</dict>
+</plist>

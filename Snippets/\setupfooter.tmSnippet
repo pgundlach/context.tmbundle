@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>1F643423-BFA9-4DC7-91BD-3E81CB4A161E</string>
+    <key>name</key>
+    <string>\setupfooter</string>
+    <key>content</key>
+    <string>\setupfooter ${1:[${2:...}]}[${3:...,...=...,...}]
+$4</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\setupfooter</string>
+</dict>
+</plist>

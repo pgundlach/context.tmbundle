@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>618E13F1-63A8-4833-97F5-3087FF7A1F53</string>
+    <key>name</key>
+    <string>\startsynchronization</string>
+    <key>content</key>
+    <string>\startsynchronization
+$1
+\stopsynchronization</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\startsynchronization</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>9446A951-1345-40E3-9751-3FD7A31FD126</string>
+    <key>name</key>
+    <string>\startlegend</string>
+    <key>content</key>
+    <string>\startlegend ${1:[${2:...}]}\leg  ${4:...} \\ ${5:...} \\ ${6:...}\\\leg
+$8
+\stoplegend</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\startlegend</string>
+</dict>
+</plist>

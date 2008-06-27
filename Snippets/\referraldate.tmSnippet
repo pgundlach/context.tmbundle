@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>150BBBF3-D34C-42FE-95B4-4122ABBAFF17</string>
+    <key>name</key>
+    <string>\referraldate</string>
+    <key>content</key>
+    <string>\referraldate
+$1</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\referraldate</string>
+</dict>
+</plist>

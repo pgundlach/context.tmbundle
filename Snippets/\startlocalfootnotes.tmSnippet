@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>0B65AB0F-7D36-4D9F-A97A-0FC9675B476D</string>
+    <key>name</key>
+    <string>\startlocalfootnotes</string>
+    <key>content</key>
+    <string>\startlocalfootnotes
+$1
+\stoplocalfootnotes</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\startlocalfootnotes</string>
+</dict>
+</plist>

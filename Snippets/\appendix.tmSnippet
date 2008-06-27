@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>F159C40A-B775-4D59-9D62-96FDB009D8E8</string>
+    <key>name</key>
+    <string>\appendix</string>
+    <key>content</key>
+    <string>\appendix ${1:[${2:ref,ref,..}]}{${3:...}}
+$4</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\appendix</string>
+</dict>
+</plist>

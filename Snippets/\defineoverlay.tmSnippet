@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>1437C6AE-6262-4638-91A3-7420AE989211</string>
+    <key>name</key>
+    <string>\defineoverlay</string>
+    <key>content</key>
+    <string>\defineoverlay [${1:...,...,...}][${2:...}]
+$3</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\defineoverlay</string>
+</dict>
+</plist>

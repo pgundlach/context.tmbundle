@@ -1,0 +1,41 @@
+0.8
+ * renamed a few items to confirm to the style guide.
+ 
+0.7
+ * env command is now somewhat more clever with completion
+
+0.6 (for Mojca M.)
+ * drag image to sourcefile will hopefully produce correct links.
+ * new snippets eq, eqal (equation, equation aligned)
+ * cmd-i, cmd-b now switch back/to italic, bold and bolditalic
+ * fixed bug where last character before a %-sign was highlighted as a comment
+ * {\it ...} and {\bf ...} and {\bi....} have markup.italic.context (and similar).
+ * hyperlinks for pdf files (output written on ...) should work with filenames/pathnames with spaces
+
+
+0.5 (2007-06-13) (for Willi E.):
+ * fixed bug with nested environments
+
+0.4:
+ * support for xetex: set variable 'CTX_ENGINE' to 'xetex'
+
+0.3: 
+ * scope set to text.tex.context for compatibility with the latex bundle (text.tex.latex)
+ * include metafun language grammar based on a metapost bundle by Charilaos Skiadas
+ * typeset (cmd-r) output window:
+   * link to pdf file added (runs predefined viewer or 'Preview.app')
+   * link to logfile
+   * in case of an error: link to file/line
+ * keybindings
+   * typeset is now on cmd-r (for the sake of compatibility with all other textmate's bundles)
+   * purge is now on ctrl-alt-backsapce (for the sake of.....)
+   * view in pdfviwer is now on ctrl-alt-cmd-o (for the sake of ....)
+   * cmd-i {\it ...}
+   * cmd-b {\bf ...}
+ * dragging images (png, pdf, jpg) to a ConTeXt source creates \externalfigure[<figname>]
+ * sectioning commands: tab trigger 'sec' and 'sub'
+ * wrap selection in \start...\stop (ctrl-shift-w)
+ * Menu update
+ * support for document outline (symbols in TextMate speak)
+
+0.2: initial release

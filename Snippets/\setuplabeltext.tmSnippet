@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>11BB18AC-9758-45AF-BE38-11352FC0E95A</string>
+    <key>name</key>
+    <string>\setuplabeltext</string>
+    <key>content</key>
+    <string>\setuplabeltext ${1:[${2:...}]}[${3:...=...}
+$4</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\setuplabeltext</string>
+</dict>
+</plist>

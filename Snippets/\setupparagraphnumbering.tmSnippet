@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>1AEB3729-BF92-4B27-BA25-518EF364BAAA</string>
+    <key>name</key>
+    <string>\setupparagraphnumbering</string>
+    <key>content</key>
+    <string>\setupparagraphnumbering [${1:...,...=...,...}]
+$2</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\setupparagraphnumbering</string>
+</dict>
+</plist>

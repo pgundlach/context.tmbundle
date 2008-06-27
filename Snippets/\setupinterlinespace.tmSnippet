@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>A229BE80-5CF4-4223-85F7-D35A6F6BDDC1</string>
+    <key>name</key>
+    <string>\setupinterlinespace</string>
+    <key>content</key>
+    <string>\setupinterlinespace ${1:[${2:...}]}
+$3</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\setupinterlinespace</string>
+</dict>
+</plist>

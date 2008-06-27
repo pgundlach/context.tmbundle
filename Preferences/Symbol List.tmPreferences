@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Symbol List</string>
+	<key>scope</key>
+	<string>text.tex.context meta.function.section.context</string>
+	<key>settings</key>
+	<dict>
+		<key>showInSymbolList</key>
+		<integer>1</integer>
+		<key>symbolTransformation</key>
+		<string>
+		s/^\\part\s*?(?:\[[^]]*\])?\{(.+)\}/$1/; # \part
+		s/^\\chapter\s*?(?:\[[^]]*\])?\{(.+)\}/ $1/; # \chapter
+		s/^\\section\s*?(?:\[[^]]*\])?\{(.+)\}/  $1/; # \section
+		s/^\\subsection\s*?(?:\[[^]]*\])?\{(.+)\}/   $1/; # \subsection
+		s/^\\subsubsection\s*?(?:\[[^]]*\])?\{(.+)\}/    $1/; # \subsubsection
+		s/^\\title\s*?(?:\[[^]]*\])?\{(.+)\}/ $1/; # \title
+		s/^\\subject\s*?(?:\[[^]]*\])?\{(.+)\}/  $1/; # \subject
+		s/^\\subsubject\s*?(?:\[[^]]*\])?\{(.+)\}/   $1/; # \subsubject
+		s/^\\subsubsubject\s*?(?:\[[^]]*\])?\{(.+)\}/    $1/; # \subsubsubject
+		s/^\\.*\{(.+)\}/$1/;     # take care of everything else
+	</string>
+	</dict>
+	<key>uuid</key>
+	<string>87E9A254-E469-48DD-802B-D2DCC91BD9AD</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>3E5BC95D-B211-4284-B3E1-AD46103B25D7</string>
+    <key>name</key>
+    <string>\setuplinenumbering</string>
+    <key>content</key>
+    <string>\setuplinenumbering [${1:...,...=...,...}]
+$2</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\setuplinenumbering</string>
+</dict>
+</plist>

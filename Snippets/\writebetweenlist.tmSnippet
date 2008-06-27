@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>1BDAC6F0-C5B4-4313-85B7-97EF9CC76380</string>
+    <key>name</key>
+    <string>\writebetweenlist</string>
+    <key>content</key>
+    <string>\writebetweenlist [${1:...}]{${2:...}}
+$3</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\writebetweenlist</string>
+</dict>
+</plist>

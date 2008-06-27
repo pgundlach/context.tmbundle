@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>4C846E28-516E-4A8D-A55C-5C8B4A923F36</string>
+    <key>name</key>
+    <string>\useexternalfiles</string>
+    <key>content</key>
+    <string>\useexternalfiles [${1:...}][${2:...,...=...,...}]
+$3</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\useexternalfiles</string>
+</dict>
+</plist>

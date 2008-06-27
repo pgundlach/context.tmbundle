@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>2D019D86-430B-4FFA-BA67-0FAC28A715D8</string>
+    <key>name</key>
+    <string>\blackrules</string>
+    <key>content</key>
+    <string>\blackrules [${1:...,...=...,...}]
+$2</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\blackrules</string>
+</dict>
+</plist>

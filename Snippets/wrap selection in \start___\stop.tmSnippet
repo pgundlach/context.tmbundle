@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\\start$1
+$0$TM_SELECTED_TEXT
+\\stop${1/(\w*)(.*\n*)*/$1/}
+</string>
+	<key>keyEquivalent</key>
+	<string>^W</string>
+	<key>name</key>
+	<string>Wrap Selection in \start...\stop</string>
+	<key>scope</key>
+	<string>text.tex.context</string>
+	<key>uuid</key>
+	<string>16AA427A-D847-4BBD-A3CB-70F453BAF270</string>
+</dict>
+</plist>

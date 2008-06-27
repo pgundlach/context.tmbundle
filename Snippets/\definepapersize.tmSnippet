@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>1A4AD6B3-F4C5-4255-967B-1E6D99FC76C8</string>
+    <key>name</key>
+    <string>\definepapersize</string>
+    <key>content</key>
+    <string>\definepapersize [${1:...}][${2:...,...=...,...}]
+$3</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\definepapersize</string>
+</dict>
+</plist>

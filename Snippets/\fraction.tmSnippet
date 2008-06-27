@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>FFBB6AE6-5BD1-45B2-AC6A-45C974E3CF5F</string>
+    <key>name</key>
+    <string>\fraction</string>
+    <key>content</key>
+    <string>\fraction {${1:...}}{${2:...}}
+$3</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\fraction</string>
+</dict>
+</plist>

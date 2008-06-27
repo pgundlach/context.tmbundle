@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>73FA1627-D3CD-4B0D-93D9-03A964BC3B02</string>
+    <key>name</key>
+    <string>\setupinteractionbar</string>
+    <key>content</key>
+    <string>\setupinteractionbar [${1:...,...=...,...}]
+$2</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\setupinteractionbar</string>
+</dict>
+</plist>

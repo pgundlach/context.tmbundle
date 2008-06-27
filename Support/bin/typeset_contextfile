@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+
+$:.unshift "#{ENV['TM_SUPPORT_PATH']}/lib"
+$:.unshift  File.join(File.dirname(__FILE__), "..", "lib")
+
+require 'scriptmate'
+
+require "parse_texexec_output"
+
+xetex = ENV['CTX_ENGINE']=="xetex" ? "--xtx" : ""
+
+
+@file=File.basename(ENV['TM_FILEPATH'])
+@dir=File.dirname(ENV['TM_FILEPATH'])
+$cmd="texmfstart texexec #{xetex} --pass=\\'-halt-on-error -file-line-error\\' #{@file}"
+
+
+
+
+class CommandMate
+  def emit_header
+    puts html_head(:window_title=>"texexec", :page_title=>"typeset" , :sub_title=>"#{$cmd}")
+   puts "<pre>"
+  end
+end
+
+cmd_mate($cmd)

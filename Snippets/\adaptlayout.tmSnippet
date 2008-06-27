@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>BD51C8C5-9295-44D3-93FC-4A90F3E0CBA9</string>
+    <key>name</key>
+    <string>\adaptlayout</string>
+    <key>content</key>
+    <string>\adaptlayout ${1:[${2:...,...,...}]}[${3:...,...=...,...}]
+$4</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\adaptlayout</string>
+</dict>
+</plist>

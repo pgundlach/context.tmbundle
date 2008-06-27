@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>DADC04FC-6E33-480A-BB2F-F387606462BC</string>
+    <key>name</key>
+    <string>\definesectionblock</string>
+    <key>content</key>
+    <string>\definesectionblock [${1:...}]${2:[${3:...,...=...,...}]}
+$4</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\definesectionblock</string>
+</dict>
+</plist>

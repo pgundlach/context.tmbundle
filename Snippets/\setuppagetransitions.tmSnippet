@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>6C0C896C-9150-44A4-BDFA-FFD52F3E9926</string>
+    <key>name</key>
+    <string>\setuppagetransitions</string>
+    <key>content</key>
+    <string>\setuppagetransitions ${1:[${2:...,...,...}]}
+$3</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\setuppagetransitions</string>
+</dict>
+</plist>

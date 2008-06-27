@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>B13D1619-B0E9-4A55-B18A-4DC0BD067EE4</string>
+    <key>name</key>
+    <string>\setuplayout</string>
+    <key>content</key>
+    <string>\setuplayout [${1:...,...=...,...}]
+$2</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\setuplayout</string>
+</dict>
+</plist>

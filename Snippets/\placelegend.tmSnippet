@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>2040B19E-DBBA-4257-9B05-428C0EE61423</string>
+    <key>name</key>
+    <string>\placelegend</string>
+    <key>content</key>
+    <string>\placelegend {${1:...}}{${2:...}}
+$3</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\placelegend</string>
+</dict>
+</plist>

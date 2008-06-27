@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\\placeformula
+\\startformula
+	$0
+\\stopformula
+</string>
+	<key>name</key>
+	<string>Equation</string>
+	<key>scope</key>
+	<string>text.tex.context</string>
+	<key>tabTrigger</key>
+	<string>eq</string>
+	<key>uuid</key>
+	<string>6FD98934-4D2A-4385-BC4B-C2609487AA44</string>
+</dict>
+</plist>

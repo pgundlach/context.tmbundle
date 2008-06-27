@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>81C3BF5A-6DC6-4868-8B7E-C01AE380DCAD</string>
+    <key>name</key>
+    <string>\startinteractionmenu</string>
+    <key>content</key>
+    <string>\startinteractionmenu [${1:...}]
+$2
+\stopinteractionmenu</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\startinteractionmenu</string>
+</dict>
+</plist>

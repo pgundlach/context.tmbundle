@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>C042873C-F847-4190-94C9-9EE925B2B393</string>
+    <key>name</key>
+    <string>\decouplemarking</string>
+    <key>content</key>
+    <string>\decouplemarking [${1:...}]
+$2</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\decouplemarking</string>
+</dict>
+</plist>

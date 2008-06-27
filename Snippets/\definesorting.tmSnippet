@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>052DDC9B-6848-46BE-BBC8-E1273C0D2B58</string>
+    <key>name</key>
+    <string>\definesorting</string>
+    <key>content</key>
+    <string>\definesorting [${1:...}][${2:...}]${3:[${4:...}]}
+$5</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\definesorting</string>
+</dict>
+</plist>

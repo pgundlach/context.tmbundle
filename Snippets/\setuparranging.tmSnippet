@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>E34AA6DC-91D6-4BA0-A19E-726F84A343D3</string>
+    <key>name</key>
+    <string>\setuparranging</string>
+    <key>content</key>
+    <string>\setuparranging [${1:...,...,...}]
+$2</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\setuparranging</string>
+</dict>
+</plist>

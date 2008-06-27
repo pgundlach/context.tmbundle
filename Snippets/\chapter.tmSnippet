@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>C370C3B8-710B-4DD8-8F1F-E0CBCB640F92</string>
+    <key>name</key>
+    <string>\chapter</string>
+    <key>content</key>
+    <string>\chapter ${1:[${2:ref,ref,..}]}{${3:...}}
+$4</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\chapter</string>
+</dict>
+</plist>

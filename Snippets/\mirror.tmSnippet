@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>D4C0AAAA-3B06-4040-A333-1C8C6F733A84</string>
+    <key>name</key>
+    <string>\mirror</string>
+    <key>content</key>
+    <string>\mirror {${1:...}}
+$2</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\mirror</string>
+</dict>
+</plist>

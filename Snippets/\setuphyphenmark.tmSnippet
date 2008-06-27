@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>uuid</key>
+    <string>FAD4C285-290C-4D5E-B5BC-F25800D10255</string>
+    <key>name</key>
+    <string>\setuphyphenmark</string>
+    <key>content</key>
+    <string>\setuphyphenmark [${1:...=...}
+$2</string>
+    <key>scope</key>
+    <string>text.tex.context</string>
+    <key>tabTrigger</key>
+    <string>\setuphyphenmark</string>
+</dict>
+</plist>
