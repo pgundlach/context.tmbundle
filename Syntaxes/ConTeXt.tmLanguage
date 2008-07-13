@@ -165,6 +165,52 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 			</array>
 		</dict>
 		<dict>
+			<key>begin</key>
+			<string>(\\startlua)</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>support.function.document.context</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\\stoplua)</string>
+			<key>name</key>
+			<string>meta.scope.lua</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.lua</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(\\ctxlua\s*){</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>support.function.document.context</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>}</string>
+			<key>name</key>
+			<string>meta.scope.lua</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.lua</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
 			<key>captures</key>
 			<dict>
 				<key>0</key>

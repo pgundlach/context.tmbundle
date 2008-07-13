@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Ignore Spelling in Arguments</string>
 	<key>scope</key>
-	<string>text.tex.context meta.context.group.arguments</string>
+	<string>text.tex.context meta.context.group.arguments, meta.scope.lua</string>
 	<key>settings</key>
 	<dict>
 		<key>spellChecking</key>
