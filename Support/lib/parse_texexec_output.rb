@@ -1,4 +1,4 @@
-def htmlize(str)
+def ctx_htmlize(str)
   filepath=ENV['TM_FILEPATH']
   if ENV['PDF_VIEWER']
     pdfview = "-a #{ENV['PDF_VIEWER']}"
@@ -23,6 +23,7 @@ def htmlize(str)
     href
     "<a href='#{href}'>#{text}</a>"
   end
+  str = str.gsub(/\n/,'<span style="white-space:pre;">\0</span>')
   str = str.gsub(/(Fatal error occurred, no output PDF file produced)/, '<span style="background-color:red;">\1</span>')
-  return str
+  str
 end
