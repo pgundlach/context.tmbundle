@@ -9,7 +9,7 @@
 	<key>input</key>
 	<string>document</string>
 	<key>keyEquivalent</key>
-	<string>^4</string>
+	<string>^~</string>
 	<key>name</key>
 	<string>Purge</string>
 	<key>output</key>

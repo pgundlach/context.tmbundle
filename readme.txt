@@ -1,4 +1,4 @@
-Current version is 0.9.
+Current version is 0.10.
 
 == Installing the bundle ==
 
@@ -11,6 +11,7 @@ Download the package from the address given at the bottom of this readme. Double
 * setting previwer        (the variable PDF_VIEWER, the default is 'Preview'. You can try anything that you can use as an argument for 'open')
 * running texexec         (cmd-R, there are hyperlinks to the .log and to the .pdf file, and in case of an error, a hyperlink to the source file)
 * purge                   (ctrl-alt-backsapce)
+* check                   (ctrl-shift-v)
 * view                    (ctrl-alt-cmd-o)
 * tab on commands         (exaple: insert \color and press tab, you can tab through the arguments.)
 * command completion      (type in '\fill' and press the escape key multiple times)
@@ -20,6 +21,7 @@ Download the package from the address given at the bottom of this readme. Double
 * drag/drop image to the source (creates \externalfigure[...]) 
 * wrap selection in \start...\stop (ctrl-shift-w)
 * xetex support           (set CTX_ENGINE to 'xetex')
+* luatex support          (also on cmd-R, no hyperlinks in the output yet)
 
 == CTX_ENGINE ==
 You can set the variable CTX_ENGINE in Textmate's preference window (Textmate menu -> preferences), click on 'Advanced', select the tab 'shell variables' and add the variable CTX_ENGINE by using
