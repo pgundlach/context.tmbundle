@@ -1,7 +1,7 @@
 task :default => [:dist]
 
 
-PKG_VERSION = 0.9
+PKG_VERSION = "0.10"
 BUNDLE="context-tmbundle-#{PKG_VERSION}.dmg"
 DESTPATH="/var/www/contextgarden.net/dl/support/textmate"
 
