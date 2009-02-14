@@ -3,7 +3,7 @@ task :default => [:dist]
 
 PKG_VERSION = 0.9
 BUNDLE="context-tmbundle-#{PKG_VERSION}.dmg"
-DESTPATH="/var/www/contextgarden.net/dl/support"
+DESTPATH="/var/www/contextgarden.net/dl/support/textmate"
 
 task :dist => [:clean] do
   makedirs "dist"

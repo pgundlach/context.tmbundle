@@ -1,3 +1,6 @@
+0.9
+ * fixed error where output window (cmd-r) is blank
+ 
 0.8
  * renamed a few items to confirm to the style guide.
  

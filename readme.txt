@@ -1,4 +1,4 @@
-Current version is 0.8.
+Current version is 0.9.
 
 == Installing the bundle ==
 
