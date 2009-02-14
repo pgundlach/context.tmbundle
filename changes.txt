@@ -1,5 +1,6 @@
-0.9
+0.9 (2009-02-14)
  * fixed error where output window (cmd-r) is blank
+ * use executor.rb instead of scriptmate. If your TextMate installation is older then 2008-11-27, please update TextMate or use an older version of the ConTeXt bundle
  
 0.8
  * renamed a few items to confirm to the style guide.

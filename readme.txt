@@ -2,7 +2,7 @@ Current version is 0.9.
 
 == Installing the bundle ==
 
-Download the package from the address given below. Double click on the file to mount the disk image and then just double click the 'ConTeXt.tmbundle' file. 
+Download the package from the address given at the bottom of this readme. Double click on the file to mount the disk image and then just double click the 'ConTeXt.tmbundle' file. 
 
 == Features ==
 
