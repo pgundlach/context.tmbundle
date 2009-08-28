@@ -1,3 +1,6 @@
+0.11 (2009-08-28)
+ * changed comment syntax, fixed display errors (thanks Mojca!)
+ 
 0.10 (2009-02-14)
  * new command "typeset with luatex" (cmd-r)
  * new command "check" (ctrl-shift-v)
