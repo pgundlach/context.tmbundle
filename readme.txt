@@ -54,5 +54,5 @@ The metafun grammar is taken from Charilaos Skiadas' metapost bundle and used wi
 
 Homepage:   http://wiki.contextgarden.net/ConTeXt_Bundle_for_TextMate<br/>
 Download:   http://dl.contextgarden.net/support/<br/>
-Sourcecode: http://github.com/contextgarden
+Sourcecode: http://github.com/pgundlach/context.tmbundle
 Contact:    patrick <at> gundla.ch<br/>
