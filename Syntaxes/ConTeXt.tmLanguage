@@ -19,6 +19,59 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>match</key>
+			<string>[\(\)]</string>
+			<key>name</key>
+			<string>keyword.operator.parentheses.context</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[\[\]\{\}]</string>
+			<key>name</key>
+			<string>keyword.operator.braces.context</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>\$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.tex</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>\$</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.tex</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>string.other.math.tex</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\\\$</string>
+					<key>name</key>
+					<string>constant.character.escape.tex</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>text.tex.math</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>$self</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -229,7 +282,7 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\\starttext</string>
+			<string>\\starttext\W</string>
 			<key>name</key>
 			<string>meta.context.starttext</string>
 		</dict>
@@ -243,7 +296,7 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\\stoptext</string>
+			<string>\\stoptext\W</string>
 			<key>name</key>
 			<string>meta.context.stoptext</string>
 		</dict>
