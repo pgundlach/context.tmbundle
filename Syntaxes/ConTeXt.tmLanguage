@@ -9,9 +9,9 @@
 	<key>firstLineMatch</key>
 	<string>^\\starttext</string>
 	<key>foldingStartMarker</key>
-	<string>\\start.*</string>
+	<string>\\(start.*|b(TABLE|TD|TR))</string>
 	<key>foldingStopMarker</key>
-	<string>\\stop.*</string>
+	<string>\\(stop.*|e(TABLE|TD|TR))</string>
 	<key>keyEquivalent</key>
 	<string>^~C</string>
 	<key>name</key>
@@ -205,7 +205,7 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\\start(unique|reusable)?MP)(code|inclusions|graphic)</string>
+			<string>(\\start(unique|use|reusable)?MP)(code|inclusions|graphic)</string>
 			<key>captures</key>
 			<dict>
 				<key>0</key>
