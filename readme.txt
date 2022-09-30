@@ -2,7 +2,7 @@ Current version is 0.11.
 
 == Installing the bundle ==
 
-Download the package from the address given at the bottom of this readme. Double click on the file to mount the disk image and then just double click the 'ConTeXt.tmbundle' file. 
+Download the package from the address given at the bottom of this readme. Double click on the file to mount the disk image and then just double click the 'ConTeXt.tmbundle' file.
 
 == Features ==
 
@@ -18,7 +18,7 @@ Download the package from the address given at the bottom of this readme. Double
 * bold/italic font        (type cmd-i or cmd-b)
 * sectioning commands     (type sec or sub and press tab)
 * metafun aware in \startuniqueMPgraphic and alike
-* drag/drop image to the source (creates \externalfigure[...]) 
+* drag/drop image to the source (creates \externalfigure[...])
 * wrap selection in \start...\stop (ctrl-shift-w)
 * xetex support           (set CTX_ENGINE to 'xetex')
 * luatex support          (also on cmd-R, no hyperlinks in the output yet)
@@ -56,3 +56,4 @@ Homepage:   http://wiki.contextgarden.net/ConTeXt_Bundle_for_TextMate<br/>
 Download:   http://dl.contextgarden.net/support/<br/>
 Sourcecode: http://github.com/pgundlach/context.tmbundle
 Contact:    patrick <at> gundla.ch<br/>
+License:    https://creativecommons.org/publicdomain/zero/1.0/deed.en
